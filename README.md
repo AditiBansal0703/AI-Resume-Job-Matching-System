@@ -19,3 +19,8 @@ A web app that analyzes a candidate's resume and compares it with a given job de
 cd app
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+
+
+<img width="813" height="921" alt="image" src="https://github.com/user-attachments/assets/e2ba10b8-46e8-42ca-b7d5-8e1203649e48" />
+
