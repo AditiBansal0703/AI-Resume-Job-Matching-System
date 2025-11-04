@@ -14,6 +14,7 @@ A web app that analyzes a candidate's resume and compares it with a given job de
 - **Backend:** FastAPI (Python)
 - **Libraries:** scikit-learn
 
+
 ##  How to Run Locally
 ```bash
 cd app
@@ -21,6 +22,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 
 
+![Project Demo](https://github.com/user-attachments/assets/9a152d34-81d3-4b38-b8cc-e62de561aec8)
 
-<img width="813" height="921" alt="image" src="https://github.com/user-attachments/assets/e2ba10b8-46e8-42ca-b7d5-8e1203649e48" />
+
 
