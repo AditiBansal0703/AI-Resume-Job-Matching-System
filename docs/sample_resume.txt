@@ -1,0 +1,13 @@
+John Doe
+john.doe@example.com
++1-555-555-5555
+
+Experience
+Senior Software Engineer, TechCorp (2019 - Present)
+- Built microservices using Python and Docker.
+
+Education
+BSc Computer Science, Example University (2015 - 2019)
+
+Skills
+Python, Docker, AWS, PostgreSQL

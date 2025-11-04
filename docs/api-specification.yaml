@@ -1,0 +1,34 @@
+openapi: 3.1.1
+info:
+  title: Resume Parser API
+  version: "1.0"
+servers:
+  - url: http://localhost:8000/api/v1
+paths:
+  /api/v1/resumes/upload:
+    post:
+      summary: Upload and parse resume
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+      responses:
+        '202':
+          description: Accepted - parsing in progress
+  /api/v1/resumes/{id}:
+    get:
+      summary: Get parsed resume
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
