@@ -14,7 +14,8 @@ A web app that analyzes a candidate's resume and compares it with a given job de
 - **Backend:** FastAPI (Python)
 - **Libraries:** scikit-learn
 
-![Project Demo](https://github.com/user-attachments/assets/9a152d34-81d3-4b38-b8cc-e62de561aec8)
+<img src="https://github.com/user-attachments/assets/9a152d34-81d3-4b38-b8cc-e62de561aec8" width="200" alt="Project Demo">
+
 
 
 ##  How to Run Locally
